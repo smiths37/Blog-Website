@@ -8,8 +8,8 @@
   <%= post.title %>
 </h2>
 <p>
-  <%= post.content.substring(0, 100) + "..." %>
-  <a href="/posts/<%= post.slug %>">Read More</a>
+  <%= post.body.substring(0, 100) + "..." %>
+  <a href="/posts/<%= post._id %>">Read More</a>
 </p>
 <% }); %>
 
